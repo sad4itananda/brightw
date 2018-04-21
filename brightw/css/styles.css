@@ -4,13 +4,14 @@
 }
 /*---------border если ндо посмотреть граници блока ----------  */
 .b  {
-	border:solid transparent/*black*/  1px;
+	border:solid transparent /*black*/  1px;
 }
 /*--------------------------header----------------------------*/
 .header-gorizontal-strip {
 	margin-top: 100px;
 	background:#fefefe;
-    border:solid #f1f0f0 1px;
+    border-top:solid #f1f0f0 2px;
+    border-bottom: :solid #f1f0f0 2px;
 }
 /*--------------------------main----------------------------*/
 .main-content__elem__image {
@@ -24,7 +25,7 @@
 	padding-bottom: 8px;
 }
 .header__main-menu ul li:hover {
-    border-bottom: solid red 2px;
+	border-bottom: solid red 2px;
 }
 .page-buttons-menu {
 	margin-top:20px;
@@ -34,7 +35,7 @@
 	padding-top: 4px;
 }
 /*------------------form---------------------------------*/
-#find{
+#find {
 	width: 221px;
 }
 /*----------------------foorer---------------------------*/
@@ -44,7 +45,6 @@
 }
 .footer-top__head h2 {
 	margin-top: 16px;
-
 }
 .footer p {
 	padding: 10px;
@@ -52,3 +52,5 @@
 .footer-box-list ul li a {  
 	text-decoration: none;
 }
+.footer-box-list:last-child {
+	margin-right: 60px;

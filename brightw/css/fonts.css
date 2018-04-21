@@ -29,7 +29,7 @@ h3 {
 	font-size: 13px;
 }
 .main__content-menu ul li:nth-child(odd):hover {
-	color: red;
+	color:#d42819;
 }
 .page-buttons-menu ul li {
 	color: #b5b4b4;
@@ -40,13 +40,13 @@ h3 {
 	font-size: 13px;
 }
 #find{
-	color: #d96e68;
+	color: #d42819;
 	background:  rgba(231,230,2229,.3);
 	font-family: "Myriad-Italic";
 	font-style:  italic;
 }
 #go-find {
-	color: #d96e68;
+	color: #d42819;
 	background:  rgba(231,230,2229,.3);
 	font-family: "Myriad-Italic";
 	font-style:  italic;
