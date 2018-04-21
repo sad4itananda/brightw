@@ -1,0 +1,28 @@
+.menu-position-float-right li {
+	float:right;
+	margin-right:5px;
+}
+.display-inline-menu li {
+	display: inline;
+}
+.header__main-menu li {
+	margin-left: 20px;
+}
+.header__social-links {
+	width: 200px;
+}
+.header__social-links ul li {
+	margin-right: 4px;
+	margin-top: 25px;
+}
+.header__main-menu ul li  {
+	margin-right: 35px;
+	margin-top: 32px;
+}
+.page-buttons-menu ul li {
+	width: 22px;
+	height: 22px;
+	border-radius:  3px;
+	border:solid #f1f0f0 2px;
+	background: #fefefe; 
+}

@@ -1,0 +1,65 @@
+.position-in-circle {
+	color: #fefefe;
+	font-size: 42px;
+	font-family: "Niagara Solid";
+}
+.header__main-menu {
+	color: #7e7e7e;
+	font-size: 15px;
+	font-family: "Myria-pro-light";
+}
+h1 	{
+	color: #7e7e7e;
+	font-family: "Myriaregular";
+	font-size: 28px;
+}
+h2 {
+	color: #4f4e4e;
+	font-family: "Myriaregular";
+	font-size: 16px;
+}
+h3 {
+	color: #7e7e7e;
+	font-family: "Myriaregular";
+	font-size: 13px;
+}
+.main__content-menu ul li  {
+	color: #7e7e7e;
+	font-family: "Myriaregular";
+	font-size: 13px;
+}
+.main__content-menu ul li:nth-child(odd):hover {
+	color: red;
+}
+.page-buttons-menu ul li {
+	color: #b5b4b4;
+}
+.footer-top-find__content p, .footer-top-info__content p  {
+	color: #7e7e7e;
+	font-family: "Myriaregular";
+	font-size: 13px;
+}
+#find{
+	color: #d96e68;
+	background:  rgba(231,230,2229,.3);
+	font-family: "Myriad-Italic";
+	font-style:  italic;
+}
+#go-find {
+	color: #d96e68;
+	background:  rgba(231,230,2229,.3);
+	font-family: "Myriad-Italic";
+	font-style:  italic;
+}
+.footer-box-list ul li a {
+	color: #7e7e7e;
+	font-family: "Myriad-Italic";
+	font-size: 13px;
+	font-style:  italic;
+
+}
+.footer-total p {
+	color: #7e7e7e;
+	font-family: "Myriaregular";
+	font-size: 14px;
+}
