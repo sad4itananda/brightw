@@ -1,17 +1,21 @@
-.wrapper-background {
-	/*border:solid aqua 2px;*/
+.wrapper {
 	background-image: url(../images/background.png);
+	margin: 0 auto;
 }
-/*---------border если ндо посмотреть граници блока ----------  */
-.b  {
-	border:solid transparent /*black*/  1px;
+.content-width {
+	margin: 0 auto;
 }
 /*--------------------------header----------------------------*/
 .header-gorizontal-strip {
 	margin-top: 100px;
 	background:#fefefe;
-    border-top:solid #f1f0f0 2px;
-    border-bottom: :solid #f1f0f0 2px;
+	border-top:solid #f1f0f0 2px;
+	border-bottom: solid #f1f0f0 2px;
+}
+.header-main-flex {
+	display: flex;
+	position: relative;
+	justify-content: flex-end;
 }
 /*--------------------------main----------------------------*/
 .main-content__elem__image {
@@ -27,18 +31,15 @@
 .header__main-menu ul li:hover {
 	border-bottom: solid red 2px;
 }
-.page-buttons-menu {
-	margin-top:20px;
-}    
-.page-buttons-menu ul li {
-	text-align: center;
-	padding-top: 4px;
-}
 /*------------------form---------------------------------*/
 #find {
 	width: 221px;
 }
 /*----------------------foorer---------------------------*/
+footer {
+	position: relative;
+	margin:0 auto;
+}
 .footer-top__head {
 	background: #fefefe;
 	border:solid #f1f0f0 2px;	
@@ -46,7 +47,7 @@
 .footer-top__head h2 {
 	margin-top: 16px;
 }
-.footer p {
+footer p {
 	padding: 10px;
 }
 .footer-box-list ul li a {  
