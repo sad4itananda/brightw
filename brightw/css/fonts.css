@@ -3,11 +3,6 @@
 	font-size: 42px;
 	font-family: "Niagara Solid";
 }
-.header__main-menu {
-	color: #7e7e7e;
-	font-size: 15px;
-	font-family: "Myria-pro-light";
-}
 h1 	{
 	color: #7e7e7e;
 	font-family: "Myriaregular";
@@ -23,17 +18,6 @@ h3 {
 	font-family: "Myriaregular";
 	font-size: 13px;
 }
-.main__content-menu ul li  {
-	color: #7e7e7e;
-	font-family: "Myriaregular";
-	font-size: 13px;
-}
-.main__content-menu ul li:nth-child(odd):hover {
-	color:#d42819;
-}
-.page-buttons-menu ul li {
-	color: #b5b4b4;
-}
 .footer-top-find__content p, .footer-top-info__content p  {
 	color: #7e7e7e;
 	font-family: "Myriaregular";
@@ -45,8 +29,12 @@ h3 {
 	font-family: "Myriad-Italic";
 	font-style:  italic;
 }
-#go-find {
+::placeholder { 
+    color: #d42819;
+}
+#go-button {
 	color: #d42819;
+	width:15%;
 	background:  rgba(231,230,2229,.3);
 	font-family: "Myriad-Italic";
 	font-style:  italic;
